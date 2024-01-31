@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <main>
+        <div class="calculator-display-container">
+            <input type="text" id="calculator-display" readonly>
+
+        </div>
+        <div class="calculator-buttons-container">
+            <button onclick="clearAll()">AC</button>
+            <button onclick="deleteOne()">DEL</button>
+            <button onclick="display('%')" onkeydown="displayKeyboard(event)">%</button>
+            <button onclick="display('/')" onkeydown="displayKeyboard(event)">/</button>
+            <button onclick="display('7')" onkeydown="displayKeyboard(event)">7</button>
+            <button onclick="display('8')" onkeydown="displayKeyboard(event)">8</button>
+            <button onclick="display('9')" onkeydown="displayKeyboard(event)">9</button>
+            <button onclick="display('*')" onkeydown="displayKeyboard(event)">*</button>
+            <button onclick="display('4')" onkeydown="displayKeyboard(event)">4</button>
+            <button onclick="display('5')" onkeydown="displayKeyboard(event)">5</button>
+            <button onclick="display('6')" onkeydown="displayKeyboard(event)">6</button>
+            <button onclick="display('-')" onkeydown="displayKeyboard(event)">-</button>
+            <button onclick="display('1')" onkeydown="displayKeyboard(event)">1</button>
+            <button onclick="display('2')" onkeydown="displayKeyboard(event)">2</button>
+            <button onclick="display('3')" onkeydown="displayKeyboard(event)">3</button>
+            <button onclick="display('+')" onkeydown="displayKeyboard(event)">+</button>
+            <button onclick="display('0')" onkeydown="displayKeyboard(event)">0</button>
+            <button onclick="display('.')" onkeydown="displayKeyboard(event)">.</button>
+            <button onclick="solve()">=</button>
+            
+        </div>
+    </main>
+
+    <script src="scrip.js"></script>
+</body>
+</html>
