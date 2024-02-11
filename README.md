@@ -1,6 +1,9 @@
 # Calculator Web Application
 ## Project Overview
 This is my take on creating a simple web calculator using HTML, CSS, and JavaScript. The goal is to make a graphical interface that the user can interact with by clicking on the buttons or by typing in input from the keyboard. The calculator should be able to perform basic mathematical operations such as addition, subtraction, division, and multiplication.
+### Screenshot
+[![Screenshot-from-2024-02-07-20-16-40.png](https://i.postimg.cc/L4vKvkdd/Screenshot-from-2024-02-07-20-16-40.png)](https://postimg.cc/XXZzYC7x)
+
 
 ## What I Learned During This Project
 This was a great opportunity to put to use the basics of JavaScript used for web development, which includes DOM manipulation, different events, and event handlers. On top of that, it helped me familiarize myself with the JavaScript syntax, which differs from other programming languages in which I have a background. I also got to practice the CSS grid layout, which is a common approach for more complex website structures.
